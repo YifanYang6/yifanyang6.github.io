@@ -1,0 +1,115 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/main/schema.json
+cv:
+  name: Yifan Yang
+  headline: Research Assistant | M.Sc. in Artificial Intelligence and Robotics
+  location: Shenzhen, China
+  email: yifanyang6@link.cuhk.edu.cn
+  website: https://yifanyang6.github.io/
+  social_networks:
+    - network: GitHub
+      username: YifanYang6
+    - network: ORCID
+      username: 0009-0008-3952-9207
+  sections:
+    summary:
+      - Research assistant and M.Sc. student working at the intersection of AI for Software Engineering and AIOps, with a focus on microservice diagnostics, observability, and ML-assisted troubleshooting.
+    education:
+      - institution: The Chinese University of Hong Kong, Shenzhen
+        area: Artificial Intelligence and Robotics
+        degree: M.Sc.
+        start_date: 2024-09
+        end_date: present
+        location: Shenzhen, China
+        highlights:
+          - School of Data Science.
+      - institution: Shandong University
+        area: Industrial Engineering
+        degree: Bachelor of Management
+        start_date: 2019-09
+        end_date: 2023-06
+        location: Jinan, China
+        highlights:
+          - Training in systems thinking, optimization, and engineering practice.
+    experience:
+      - company: School of Data Science, The Chinese University of Hong Kong, Shenzhen
+        position: Research Assistant
+        start_date: 2024-08
+        end_date: present
+        location: Shenzhen, China
+        highlights:
+          - Conduct research in AI for Software Engineering and AIOps, with an emphasis on microservice diagnostics, root cause analysis, observability, and fault-propagation-aware evaluation.
+          - Contribute to end-to-end research workflows across multiple projects, including system implementation, telemetry and data collection, fault injection, system integration, baseline reproduction, and performance evaluation.
+          - First author of Gleaner, an online sampling framework for microservice diagnostics accepted at ISSTA 2026.
+    publications:
+      - title: "Gleaner: A Semantically-Rich and Efficient Online Sampler for Microservice Diagnostics"
+        authors:
+          - "*Yifan Yang*"
+          - Aoyang Fang
+          - Songhan Zhang
+          - Pinjia He
+        journal: Accepted at ISSTA 2026
+        date: 2026-04
+        url: https://arxiv.org/abs/2604.16810
+      - title: "Metis: An Interpretable and Unified Troubleshooting Framework for Microservices using Multi-modal Data"
+        authors:
+          - Zhouruixing Zhu
+          - "*Yifan Yang*"
+          - Aoyang Fang
+          - Yidan Wang
+          - Pinjia He
+        journal: Under review at ACM Transactions on Software Engineering and Methodology (TOSEM)
+        date: 2026
+      - title: "Rethinking the Evaluation of Microservice RCA with a Fault Propagation-Aware Benchmark"
+        authors:
+          - Aoyang Fang
+          - Songhan Zhang
+          - "*Yifan Yang*"
+          - Haotong Wu
+          - Junjielong Xu
+          - Xuyang Wang
+          - Rui Wang
+          - Manyi Wang
+          - Qisheng Lu
+          - Pinjia He
+        journal: Accepted at FSE 2026
+        date: 2025-10
+        url: https://arxiv.org/abs/2510.04711
+      - title: "DynaCausal: Dynamic Causality-Aware Root Cause Analysis for Distributed Microservices"
+        authors:
+          - Songhan Zhang
+          - Aoyang Fang
+          - "*Yifan Yang*"
+          - Ruiyi Cheng
+          - Xiaoying Tang
+          - Pinjia He
+        journal: Under peer review (ASE 2026 submission)
+        date: 2025-10
+        url: https://arxiv.org/abs/2510.22613
+    projects:
+      - name: "[Gleaner](https://github.com/OperationsPAI/Gleaner)"
+        summary: Artifact and implementation for diagnosis-oriented online trace sampling.
+      - name: "[chaos-experiment](https://github.com/OperationsPAI/chaos-experiment)"
+        summary: Fault injection tooling for microservice troubleshooting experiments.
+      - name: "[Aegis](https://github.com/OperationsPAI/aegis)"
+        summary: Unified workspace for experiment tooling and operations-focused systems engineering.
+    skills:
+      - label: Research Areas
+        details: AI for Software Engineering, AIOps, microservice diagnostics, root cause analysis, observability
+      - label: Systems
+        details: Linux, Docker, Kubernetes, Helm, Skaffold, OpenTelemetry, Jaeger
+      - label: Programming
+        details: Python, Go, Shell, SQL
+      - label: ML and LLM
+        details: PyTorch, vLLM, LLM fine-tuning, inference optimization
+      - label: Languages
+        details: Chinese (Native), English (IELTS 6.5)
+design:
+  theme: harvard
+  page:
+    size: a4
+    top_margin: 0.65in
+    bottom_margin: 0.65in
+    left_margin: 0.7in
+    right_margin: 0.7in
+    show_footer: true
+    show_top_note: false

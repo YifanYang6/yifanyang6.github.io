@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://yifanyang6.github.io/sitemap.xml

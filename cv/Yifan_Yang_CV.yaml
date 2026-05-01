@@ -46,7 +46,7 @@ cv:
           - "**Yifan Yang**"
           - Aoyang Fang
           - Songhan Zhang
-          - Pinjia He
+          - Pinjia He*
         journal: Accepted at ISSTA 2026
         date: 2026-04
         url: https://arxiv.org/abs/2604.16810
@@ -56,9 +56,9 @@ cv:
           - "**Yifan Yang**"
           - Aoyang Fang
           - Yidan Wang
-          - Pinjia He
+          - Pinjia He*
         journal: Under review at ACM Transactions on Software Engineering and Methodology (TOSEM)
-        date: 2026
+        date: 2024
       - title: "Rethinking the Evaluation of Microservice RCA with a Fault Propagation-Aware Benchmark"
         authors:
           - Aoyang Fang
@@ -70,7 +70,7 @@ cv:
           - Rui Wang
           - Manyi Wang
           - Qisheng Lu
-          - Pinjia He
+          - Pinjia He*
         journal: Accepted at FSE 2026
         date: 2025-10
         url: https://arxiv.org/abs/2510.04711
@@ -81,7 +81,7 @@ cv:
           - "**Yifan Yang**"
           - Ruiyi Cheng
           - Xiaoying Tang
-          - Pinjia He
+          - Pinjia He*
         journal: Under peer review (ASE 2026 submission)
         date: 2025-10
         url: https://arxiv.org/abs/2510.22613

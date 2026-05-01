@@ -19,6 +19,7 @@ cv:
         degree: M.Sc.
         start_date: 2024-09
         end_date: present
+        education_date: Sep 2024 – Present
         location: Shenzhen
         highlights:
           - School of Data Science.
@@ -27,6 +28,7 @@ cv:
         degree: B.Mgt.
         start_date: 2019-09
         end_date: 2023-06
+        education_date: Sep 2019 – Jun 2023
         location: Jinan
         highlights:
           - Training in systems thinking, optimization, and engineering practice.
@@ -151,7 +153,7 @@ design:
         HIGHLIGHTS
       degree_column: '**DEGREE**'
       date_and_location_column: |-
-        DATE
+        EDUCATION_DATE
         LOCATION
     normal_entry:
       main_column: '**NAME** — SUMMARY'

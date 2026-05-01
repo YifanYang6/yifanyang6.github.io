@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "A concise academic CV generated from RenderCV source.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";

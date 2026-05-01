@@ -50,15 +50,6 @@ cv:
         journal: Accepted at ISSTA 2026
         date: 2026-04
         url: https://arxiv.org/abs/2604.16810
-      - title: "Metis: An Interpretable and Unified Troubleshooting Framework for Microservices using Multi-modal Data"
-        authors:
-          - Zhouruixing Zhu
-          - "**Yifan Yang**"
-          - Aoyang Fang
-          - Yidan Wang
-          - Pinjia He*
-        journal: Under review at ACM Transactions on Software Engineering and Methodology (TOSEM)
-        date: 2024
       - title: "Rethinking the Evaluation of Microservice RCA with a Fault Propagation-Aware Benchmark"
         authors:
           - Aoyang Fang
@@ -85,13 +76,25 @@ cv:
         journal: Under peer review (ASE 2026 submission)
         date: 2025-10
         url: https://arxiv.org/abs/2510.22613
+      - title: "Metis: An Interpretable and Unified Troubleshooting Framework for Microservices using Multi-modal Data"
+        authors:
+          - Zhouruixing Zhu
+          - "**Yifan Yang**"
+          - Aoyang Fang
+          - Yidan Wang
+          - Pinjia He*
+        journal: Under review at ACM Transactions on Software Engineering and Methodology (TOSEM)
+        date: 2024
     projects:
-      - name: "[Gleaner](https://github.com/OperationsPAI/Gleaner)"
-        summary: Artifact and implementation for diagnosis-oriented online trace sampling.
-      - name: "[chaos-experiment](https://github.com/OperationsPAI/chaos-experiment)"
+      - name: Gleaner
+        url: https://github.com/OperationsPAI/Gleaner
+        summary: Diagnosis-oriented online trace sampling for microservice observability.
+      - name: chaos-experiment
+        url: https://github.com/OperationsPAI/chaos-experiment
         summary: Fault injection tooling for microservice troubleshooting experiments.
-      - name: "[Aegis](https://github.com/OperationsPAI/aegis)"
-        summary: Unified workspace for experiment tooling and operations-focused systems engineering.
+      - name: Aegis
+        url: https://github.com/OperationsPAI/aegis
+        summary: Experiment tooling and systems engineering workspace for AIOps research.
     skills:
       - label: Research Areas
         details: AI for Software Engineering, AIOps, microservice diagnostics, root cause analysis, observability
@@ -107,9 +110,53 @@ design:
   theme: harvard
   page:
     size: a4
-    top_margin: 0.65in
-    bottom_margin: 0.65in
-    left_margin: 0.7in
-    right_margin: 0.7in
-    show_footer: true
+    top_margin: 0.55in
+    bottom_margin: 0.5in
+    left_margin: 0.58in
+    right_margin: 0.58in
+    show_footer: false
     show_top_note: false
+  typography:
+    alignment: justified-with-no-hyphenation
+    font_size:
+      body: 9.6pt
+      name: 23pt
+      headline: 9.6pt
+      connections: 8.5pt
+      section_titles: 1.2em
+  header:
+    space_below_name: 0.3cm
+    space_below_headline: 0.25cm
+    space_below_connections: 0.25cm
+  section_titles:
+    space_above: 0.35cm
+    space_below: 0.12cm
+  sections:
+    space_between_text_based_entries: 0.12em
+    space_between_regular_entries: 0.55em
+  entries:
+    date_and_location_width: 3.5cm
+    degree_width: 1.15cm
+    short_second_row: true
+    highlights:
+      space_between_items: 0em
+      space_above: 0em
+  templates:
+    education_entry:
+      main_column: |-
+        **INSTITUTION**
+        *AREA*
+        HIGHLIGHTS
+      degree_column: '**DEGREE**'
+      date_and_location_column: |-
+        DATE
+        LOCATION
+    normal_entry:
+      main_column: '**NAME** — SUMMARY'
+      date_and_location_column: ''
+    publication_entry:
+      main_column: |-
+        **TITLE**
+        AUTHORS
+        *JOURNAL*
+      date_and_location_column: DATE

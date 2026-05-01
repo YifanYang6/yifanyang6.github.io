@@ -134,12 +134,12 @@ design:
     space_below: 0.24cm
   sections:
     space_between_text_based_entries: 0.14em
-    space_between_regular_entries: 0.55em
+    space_between_regular_entries: 0.5em
   entries:
     date_and_location_width: 3.5cm
     degree_width: 1.15cm
     side_space: 0.2cm
-    short_second_row: true
+    short_second_row: false
     highlights:
       space_between_items: 0em
       space_above: 0em
@@ -158,7 +158,7 @@ design:
       date_and_location_column: ''
     publication_entry:
       main_column: |-
-        TITLE
+        **TITLE**
         AUTHORS
 
         *JOURNAL*

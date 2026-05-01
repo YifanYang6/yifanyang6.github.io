@@ -158,5 +158,6 @@ design:
       main_column: |-
         **TITLE**
         AUTHORS
+
         *JOURNAL*
       date_and_location_column: DATE

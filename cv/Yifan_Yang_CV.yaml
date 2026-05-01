@@ -117,7 +117,7 @@ design:
     show_footer: false
     show_top_note: false
   typography:
-    alignment: justified-with-no-hyphenation
+    alignment: left
     font_size:
       body: 9.9pt
       name: 24pt
@@ -129,11 +129,11 @@ design:
     space_below_headline: 0.27cm
     space_below_connections: 0.27cm
   section_titles:
-    space_above: 0.36cm
-    space_below: 0.13cm
+    space_above: 0.5cm
+    space_below: 0.2cm
   sections:
     space_between_text_based_entries: 0.14em
-    space_between_regular_entries: 0.6em
+    space_between_regular_entries: 0.55em
   entries:
     date_and_location_width: 3.5cm
     degree_width: 1.15cm

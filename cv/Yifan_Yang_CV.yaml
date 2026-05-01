@@ -2,7 +2,7 @@
 cv:
   name: Yifan Yang
   headline: Research Assistant | M.Sc. in Artificial Intelligence and Robotics
-  location: Shenzhen, China
+  location: Shenzhen
   email: yifanyang6@link.cuhk.edu.cn
   website: https://yifanyang6.github.io/
   social_networks:
@@ -19,7 +19,7 @@ cv:
         degree: M.Sc.
         start_date: 2024-09
         end_date: present
-        location: Shenzhen, China
+        location: Shenzhen
         highlights:
           - School of Data Science.
       - institution: Shandong University
@@ -27,7 +27,7 @@ cv:
         degree: B.Mgt.
         start_date: 2019-09
         end_date: 2023-06
-        location: Jinan, China
+        location: Jinan
         highlights:
           - Training in systems thinking, optimization, and engineering practice.
     experience:
@@ -35,7 +35,7 @@ cv:
         position: Research Assistant
         start_date: 2024-08
         end_date: present
-        location: Shenzhen, China
+        location: Shenzhen
         highlights:
           - Conduct research in AI for Software Engineering and AIOps, with an emphasis on microservice diagnostics, root cause analysis, observability, and fault-propagation-aware evaluation.
           - Contribute to end-to-end research workflows across multiple projects, including system implementation, telemetry and data collection, fault injection, system integration, baseline reproduction, and performance evaluation.
@@ -43,7 +43,7 @@ cv:
     publications:
       - title: "Gleaner: A Semantically-Rich and Efficient Online Sampler for Microservice Diagnostics"
         authors:
-          - "*Yifan Yang*"
+          - "**Yifan Yang**"
           - Aoyang Fang
           - Songhan Zhang
           - Pinjia He
@@ -53,7 +53,7 @@ cv:
       - title: "Metis: An Interpretable and Unified Troubleshooting Framework for Microservices using Multi-modal Data"
         authors:
           - Zhouruixing Zhu
-          - "*Yifan Yang*"
+          - "**Yifan Yang**"
           - Aoyang Fang
           - Yidan Wang
           - Pinjia He
@@ -63,7 +63,7 @@ cv:
         authors:
           - Aoyang Fang
           - Songhan Zhang
-          - "*Yifan Yang*"
+          - "**Yifan Yang**"
           - Haotong Wu
           - Junjielong Xu
           - Xuyang Wang
@@ -78,7 +78,7 @@ cv:
         authors:
           - Songhan Zhang
           - Aoyang Fang
-          - "*Yifan Yang*"
+          - "**Yifan Yang**"
           - Ruiyi Cheng
           - Xiaoying Tang
           - Pinjia He

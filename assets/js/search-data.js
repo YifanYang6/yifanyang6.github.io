@@ -4,20 +4,20 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "Papers, preprints, and current submissions in AI for Software Engineering and AIOps.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "Representative open-source artifacts and research tooling.",
           section: "Navigation",
           handler: () => {

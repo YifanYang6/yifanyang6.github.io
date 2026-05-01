@@ -130,7 +130,7 @@ design:
     space_below_connections: 0.27cm
   section_titles:
     space_above: 0.5cm
-    space_below: 0.2cm
+    space_below: 0.24cm
   sections:
     space_between_text_based_entries: 0.14em
     space_between_regular_entries: 0.55em

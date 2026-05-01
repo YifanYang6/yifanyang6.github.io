@@ -119,21 +119,21 @@ design:
   typography:
     alignment: justified-with-no-hyphenation
     font_size:
-      body: 9.6pt
-      name: 23pt
-      headline: 9.6pt
-      connections: 8.5pt
-      section_titles: 1.2em
+      body: 9.9pt
+      name: 24pt
+      headline: 9.8pt
+      connections: 8.7pt
+      section_titles: 1.22em
   header:
-    space_below_name: 0.3cm
-    space_below_headline: 0.25cm
-    space_below_connections: 0.25cm
+    space_below_name: 0.33cm
+    space_below_headline: 0.27cm
+    space_below_connections: 0.27cm
   section_titles:
-    space_above: 0.35cm
-    space_below: 0.12cm
+    space_above: 0.36cm
+    space_below: 0.13cm
   sections:
-    space_between_text_based_entries: 0.12em
-    space_between_regular_entries: 0.55em
+    space_between_text_based_entries: 0.14em
+    space_between_regular_entries: 0.6em
   entries:
     date_and_location_width: 3.5cm
     degree_width: 1.15cm

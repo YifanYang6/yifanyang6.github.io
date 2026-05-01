@@ -158,6 +158,11 @@ design:
     normal_entry:
       main_column: '**NAME** — SUMMARY'
       date_and_location_column: ''
+    experience_entry:
+      main_column: |-
+        **COMPANY**, **POSITION** -- LOCATION
+        HIGHLIGHTS
+      date_and_location_column: DATE
     publication_entry:
       main_column: |-
         **TITLE**

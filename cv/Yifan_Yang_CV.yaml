@@ -164,7 +164,7 @@ design:
     experience_entry:
       main_column: |-
         **POSITION**
-        COMPANY
+        **COMPANY**
         HIGHLIGHTS
       date_and_location_column: |-
         DATE

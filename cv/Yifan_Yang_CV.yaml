@@ -102,6 +102,8 @@ cv:
         url: https://github.com/OperationsPAI/aegis
         summary: Experiment tooling and systems engineering workspace for AIOps research.
     skills:
+      - label: Service
+        details: Program Committee, ACM CCS 2026 Artifact Evaluation
       - label: Research Areas
         details: AI for Software Engineering, AIOps, microservice diagnostics, root cause analysis, observability
       - label: Systems

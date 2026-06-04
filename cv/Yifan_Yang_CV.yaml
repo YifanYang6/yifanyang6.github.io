@@ -10,6 +10,8 @@ cv:
       username: YifanYang6
     - network: ORCID
       username: 0009-0008-3952-9207
+    - network: Google Scholar
+      username: bcclT8YAAAAJ
   sections:
     summary:
       - Research assistant advised by Prof. Pinjia He and M.Sc. student working at the intersection of AI for Software Engineering and AIOps, with a focus on microservice diagnostics, observability, fault injection, and LLM-based RCA agents.

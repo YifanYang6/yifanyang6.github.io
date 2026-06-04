@@ -119,7 +119,7 @@ cv:
       - label: Service
         details: Program Committee, ACM CCS 2026 Artifact Evaluation
       - label: Research Areas
-        details: AI for Software Engineering, AIOps, microservice diagnostics, root cause analysis, observability
+        details: Intelligent Software Engineering (AI4SE), AIOps, intelligent observability, LLM-based RCA, fault injection benchmarks, multi-modal troubleshooting
       - label: Systems
         details: Linux, Docker, Kubernetes, Helm, Skaffold, OpenTelemetry, Jaeger
       - label: AI-assisted Development

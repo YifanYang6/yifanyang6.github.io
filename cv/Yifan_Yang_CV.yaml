@@ -12,7 +12,7 @@ cv:
       username: 0009-0008-3952-9207
   sections:
     summary:
-      - Research assistant advised by Prof. Pinjia He and M.Sc. student working at the intersection of AI for Software Engineering and AIOps, with a focus on microservice diagnostics, observability, and AI-assisted troubleshooting.
+      - Research assistant advised by Prof. Pinjia He and M.Sc. student working at the intersection of AI for Software Engineering and AIOps, with a focus on microservice diagnostics, observability, fault injection, and LLM-based RCA agents.
     education:
       - institution: The Chinese University of Hong Kong, Shenzhen
         area: Artificial Intelligence and Robotics
@@ -42,8 +42,23 @@ cv:
           - Work under the supervision of Prof. Pinjia He at the School of Data Science.
           - Conduct research in AI for Software Engineering and AIOps, with an emphasis on microservice diagnostics, root cause analysis, observability, and fault-propagation-aware evaluation.
           - Contribute to end-to-end research workflows across multiple projects, including system implementation, telemetry and data collection, fault injection, system integration, baseline reproduction, and performance evaluation.
+          - Designed fault-injection campaigns, improved observability integration across microservice systems, contributed to dataset organization, and wrote related sections for OpenRCA 2.0.
           - First author of Gleaner, an online sampling framework for microservice diagnostics accepted at ISSTA 2026.
     publications:
+      - title: "OpenRCA 2.0: From Outcome Labels to Causal Process Supervision"
+        authors:
+          - Aoyang Fang
+          - "**Yifan Yang**"
+          - Jin'ao Shang
+          - Qisheng Lu
+          - Junjielong Xu
+          - Rui Wang
+          - Songhan Zhang
+          - Yuzhong Zhang
+          - Boxi Yu
+          - Pinjia He*
+        journal: Submitted to NeurIPS 2026 Evaluations and Datasets Track
+        date: 2026-05
       - title: "Gleaner: A Semantically-Rich and Efficient Online Sampler for Microservice Diagnostics"
         authors:
           - "**Yifan Yang**"
@@ -93,14 +108,11 @@ cv:
         date: 2024
     projects:
       - name: Gleaner
-        url: https://github.com/OperationsPAI/Gleaner
-        summary: Diagnosis-oriented online trace sampling for microservice observability.
+        summary: Diagnosis-oriented online trace sampling for microservice observability. [[GitHub]](https://github.com/OperationsPAI/Gleaner)
       - name: chaos-experiment
-        url: https://github.com/OperationsPAI/chaos-experiment
-        summary: Fault injection tooling for microservice troubleshooting experiments.
+        summary: Fault injection tooling for controlled microservice RCA evaluation. [[GitHub]](https://github.com/OperationsPAI/chaos-experiment)
       - name: Aegis
-        url: https://github.com/OperationsPAI/aegis
-        summary: Experiment tooling and systems engineering workspace for AIOps research.
+        summary: Experiment tooling and systems engineering workspace for AIOps research. [[GitHub]](https://github.com/OperationsPAI/aegis)
     skills:
       - label: Service
         details: Program Committee, ACM CCS 2026 Artifact Evaluation
@@ -108,8 +120,8 @@ cv:
         details: AI for Software Engineering, AIOps, microservice diagnostics, root cause analysis, observability
       - label: Systems
         details: Linux, Docker, Kubernetes, Helm, Skaffold, OpenTelemetry, Jaeger
-      - label: Programming
-        details: Python, Go, Shell, SQL
+      - label: AI-assisted Development
+        details: Codex, Claude Code, Git, LaTeX, research automation workflows
       - label: ML and LLM
         details: PyTorch, vLLM, LLM fine-tuning, inference optimization
       - label: Languages

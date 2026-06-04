@@ -44,6 +44,7 @@ cv:
           - Work under the supervision of Prof. Pinjia He at the School of Data Science.
           - Conduct research in AI for Software Engineering and AIOps, with an emphasis on microservice diagnostics, root cause analysis, observability, and fault-propagation-aware evaluation.
           - Contribute to end-to-end research workflows across multiple projects, including system implementation, telemetry and data collection, fault injection, system integration, baseline reproduction, and performance evaluation.
+          - Help maintain lab computing and networking infrastructure, including CPU clusters, GPU resources, Kubernetes environments, PVE virtualization, and OpenWrt-based networking.
           - Designed fault-injection campaigns, improved observability integration across microservice systems, contributed to dataset organization, and wrote related sections for OpenRCA 2.0.
           - First author of Gleaner, an online sampling framework for microservice diagnostics accepted at ISSTA 2026.
     publications:
@@ -121,7 +122,7 @@ cv:
       - label: Research Areas
         details: Intelligent Software Engineering (AI4SE), AIOps, intelligent observability, LLM-based and multi-modal RCA, fault injection benchmarks
       - label: Systems
-        details: Linux, Docker, Kubernetes, Helm, Skaffold, OpenTelemetry, Jaeger
+        details: Linux, Docker, Kubernetes, Helm, Skaffold, OpenTelemetry, Jaeger, PVE, OpenWrt
       - label: AI-assisted Development
         details: Codex, Claude Code, Git, LaTeX, research automation workflows
       - label: ML and LLM

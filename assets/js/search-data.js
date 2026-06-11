@@ -37,7 +37,10 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/service/";
           },
-        },{id: "projects-aegis",
+        },{id: "news-our-paper-gleaner-a-semantically-rich-and-efficient-online-sampler-for-microservice-diagnostics-was-directly-accepted-by-issta-2026-direct-acceptance-rate-90-888-10-1",
+          title: 'Our paper “Gleaner: A Semantically-Rich and Efficient Online Sampler for Microservice Diagnostics” was...',
+          description: "",
+          section: "News",},{id: "projects-aegis",
           title: 'Aegis',
           description: "Unified workspace for experiment tooling and operations-focused systems engineering.",
           section: "Projects",handler: () => {

@@ -47,7 +47,7 @@ ninja.data = [{
           title: '🎉 Our paper “Gleaner: A Semantically-Rich and Efficient Online Sampler for Microservice Diagnostics”...',
           description: "",
           section: "News",},{id: "news-joined-the-acm-ccs-2026-artifact-evaluation-program-committee",
-          title: 'Joined the ACM CCS 2026 Artifact Evaluation program committee.',
+          title: 'Joined the ACM CCS 2026 Artifact Evaluation Program Committee.',
           description: "",
           section: "News",},{id: "news-joined-the-ndss-2027-artifact-evaluation-committee",
           title: 'Joined the NDSS 2027 Artifact Evaluation Committee.',

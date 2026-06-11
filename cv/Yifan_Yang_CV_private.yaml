@@ -118,7 +118,7 @@ cv:
         summary: Experiment tooling and systems engineering workspace for AIOps research. [[GitHub]](https://github.com/OperationsPAI/aegis)
     skills:
       - label: Service
-        details: Artifact Evaluation Committee, ACM CCS 2026; NDSS 2027
+        details: Artifact Evaluation Program Committee, ACM CCS 2026; NDSS 2027
       - label: Research Areas
         details: Intelligent Software Engineering (AI4SE), AIOps, intelligent observability, LLM-based and multi-modal RCA, fault injection benchmarks
       - label: Systems

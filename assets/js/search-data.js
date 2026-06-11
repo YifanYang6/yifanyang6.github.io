@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "Papers, preprints, and current submissions in AI for Software Engineering and AIOps.",
+          description: "Public papers and preprints in AI for Software Engineering and AIOps.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";

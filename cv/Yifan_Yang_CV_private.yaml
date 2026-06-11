@@ -1,0 +1,195 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/main/schema.json
+cv:
+  name: Yifan Yang
+  headline: Research Assistant | M.Sc. in Artificial Intelligence and Robotics
+  location: Shenzhen
+  email: yifanyang6@link.cuhk.edu.cn
+  website: https://yifanyang6.github.io/
+  social_networks:
+    - network: GitHub
+      username: YifanYang6
+    - network: ORCID
+      username: 0009-0008-3952-9207
+    - network: Google Scholar
+      username: bcclT8YAAAAJ
+  sections:
+    summary:
+      - Research assistant advised by Prof. Pinjia He and M.Sc. student working at the intersection of AI for Software Engineering and AIOps, with a focus on microservice diagnostics, observability, fault injection, and LLM-based RCA agents.
+    education:
+      - institution: The Chinese University of Hong Kong, Shenzhen
+        area: Artificial Intelligence and Robotics
+        degree: M.Sc.
+        start_date: 2024-09
+        end_date: present
+        education_date: Sep 2024 – Present
+        location: Shenzhen
+        highlights:
+          - School of Data Science.
+      - institution: Shandong University
+        area: Industrial Engineering
+        degree: B.Mgt.
+        start_date: 2019-09
+        end_date: 2023-06
+        education_date: Sep 2019 – Jun 2023
+        location: Jinan
+        highlights:
+          - Training in systems thinking, optimization, and engineering practice.
+    experience:
+      - company: The Chinese University of Hong Kong, Shenzhen
+        position: Research Assistant
+        start_date: 2024-08
+        end_date: present
+        location: Shenzhen
+        highlights:
+          - Work under the supervision of Prof. Pinjia He at the School of Data Science.
+          - Conduct research in AI for Software Engineering and AIOps, with an emphasis on microservice diagnostics, root cause analysis, observability, and fault-propagation-aware evaluation.
+          - Contribute to end-to-end research workflows across multiple projects, including system implementation, telemetry and data collection, fault injection, system integration, baseline reproduction, and performance evaluation.
+          - Help maintain lab computing and networking infrastructure, including CPU clusters, GPU resources, Kubernetes environments, PVE virtualization, and OpenWrt-based networking.
+          - Designed fault-injection campaigns, improved observability integration across microservice systems, contributed to dataset organization, and wrote related sections for OpenRCA 2.0.
+          - First author of Gleaner, an online sampling framework for microservice diagnostics accepted at ISSTA 2026.
+    publications:
+      - title: "OpenRCA 2.0: From Outcome Labels to Causal Process Supervision"
+        authors:
+          - Aoyang Fang
+          - "**Yifan Yang**"
+          - Jin'ao Shang
+          - Qisheng Lu
+          - Junjielong Xu
+          - Rui Wang
+          - Songhan Zhang
+          - Yuzhong Zhang
+          - Boxi Yu
+          - Pinjia He*
+        journal: Submitted to NeurIPS 2026 Evaluations and Datasets Track
+        date: 2026-05
+      - title: "Gleaner: A Semantically-Rich and Efficient Online Sampler for Microservice Diagnostics"
+        authors:
+          - "**Yifan Yang**"
+          - Aoyang Fang
+          - Songhan Zhang
+          - Pinjia He*
+        journal: Accepted at ISSTA 2026
+        cv_links: "[[PDF]](https://arxiv.org/pdf/2604.16810)[[code]](https://github.com/OperationsPAI/Gleaner)"
+        date: 2026-04
+        url: https://arxiv.org/abs/2604.16810
+      - title: "Rethinking the Evaluation of Microservice RCA with a Fault Propagation-Aware Benchmark"
+        authors:
+          - Aoyang Fang
+          - Songhan Zhang
+          - "**Yifan Yang**"
+          - Haotong Wu
+          - Junjielong Xu
+          - Xuyang Wang
+          - Rui Wang
+          - Manyi Wang
+          - Qisheng Lu
+          - Pinjia He*
+        journal: Accepted at FSE 2026
+        cv_links: "[[PDF]](https://arxiv.org/pdf/2510.04711)"
+        date: 2025-10
+        url: https://arxiv.org/abs/2510.04711
+      - title: "DynaCausal: Dynamic Causality-Aware Root Cause Analysis for Distributed Microservices"
+        authors:
+          - Songhan Zhang
+          - Aoyang Fang
+          - "**Yifan Yang**"
+          - Ruiyi Cheng
+          - Xiaoying Tang
+          - Pinjia He*
+        journal: Under peer review (ASE 2026 submission)
+        cv_links: "[[PDF]](https://arxiv.org/pdf/2510.22613)"
+        date: 2025-10
+        url: https://arxiv.org/abs/2510.22613
+      - title: "Metis: An Interpretable and Unified Troubleshooting Framework for Microservices using Multi-modal Data"
+        authors:
+          - Zhouruixing Zhu
+          - "**Yifan Yang**"
+          - Aoyang Fang
+          - Yidan Wang
+          - Pinjia He*
+        journal: Under review at ACM Transactions on Software Engineering and Methodology (TOSEM)
+        date: 2024
+    projects:
+      - name: Gleaner
+        summary: Diagnosis-oriented online trace sampling for microservice observability. [[GitHub]](https://github.com/OperationsPAI/Gleaner)
+      - name: chaos-experiment
+        summary: Fault injection tooling for controlled microservice RCA evaluation. [[GitHub]](https://github.com/OperationsPAI/chaos-experiment)
+      - name: Aegis
+        summary: Experiment tooling and systems engineering workspace for AIOps research. [[GitHub]](https://github.com/OperationsPAI/aegis)
+    skills:
+      - label: Service
+        details: Artifact Evaluation Committee, ACM CCS 2026; NDSS 2027
+      - label: Research Areas
+        details: Intelligent Software Engineering (AI4SE), AIOps, intelligent observability, LLM-based and multi-modal RCA, fault injection benchmarks
+      - label: Systems
+        details: Linux, Docker, Kubernetes, Helm, Skaffold, OpenTelemetry, Jaeger, PVE, OpenWrt
+      - label: AI-assisted Development
+        details: Codex, Claude Code, Git, LaTeX, research automation workflows
+      - label: ML and LLM
+        details: PyTorch, vLLM, LLM fine-tuning, inference optimization
+      - label: Languages
+        details: Chinese (Native), English (IELTS 6.5)
+design:
+  theme: harvard
+  page:
+    size: a4
+    top_margin: 0.55in
+    bottom_margin: 0.5in
+    left_margin: 0.58in
+    right_margin: 0.58in
+    show_footer: false
+    show_top_note: false
+  typography:
+    alignment: left
+    font_size:
+      body: 9.9pt
+      name: 24pt
+      headline: 9.8pt
+      connections: 8.7pt
+      section_titles: 1.22em
+  header:
+    space_below_name: 0.33cm
+    space_below_headline: 0.27cm
+    space_below_connections: 0.27cm
+  section_titles:
+    space_above: 0.5cm
+    space_below: 0.24cm
+  sections:
+    space_between_text_based_entries: 0.14em
+    space_between_regular_entries: 0.5em
+  entries:
+    date_and_location_width: 3.5cm
+    degree_width: 1.15cm
+    side_space: 0.2cm
+    short_second_row: false
+    highlights:
+      space_between_items: 0em
+      space_above: 0em
+  templates:
+    education_entry:
+      main_column: |-
+        **INSTITUTION**
+        *AREA*
+        HIGHLIGHTS
+      degree_column: '**DEGREE**'
+      date_and_location_column: |-
+        EDUCATION_DATE
+        LOCATION
+    normal_entry:
+      main_column: '**NAME** — SUMMARY'
+      date_and_location_column: ''
+    experience_entry:
+      main_column: |-
+        **POSITION**
+        **COMPANY**
+        HIGHLIGHTS
+      date_and_location_column: |-
+        DATE
+        LOCATION
+    publication_entry:
+      main_column: |-
+        **TITLE**
+        AUTHORS
+
+        *JOURNAL* CV_LINKS
+      date_and_location_column: DATE

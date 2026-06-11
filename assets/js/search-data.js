@@ -37,7 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/service/";
           },
-        },{id: "news-our-paper-gleaner-a-semantically-rich-and-efficient-online-sampler-for-microservice-diagnostics-was-directly-accepted-by-issta-2026-direct-acceptance-rate-90-888-10-1",
+        },{id: "news-our-paper-dynacausal-dynamic-causality-aware-root-cause-analysis-for-distributed-microservices-is-available-as-an-arxiv-preprint",
+          title: '🎉🎉 Our paper “DynaCausal: Dynamic Causality-Aware Root Cause Analysis for Distributed Microservices” is...',
+          description: "",
+          section: "News",},{id: "news-our-paper-rethinking-the-evaluation-of-microservice-rca-with-a-fault-propagation-aware-benchmark-was-directly-accepted-by-fse-2026-direct-accept-87-920-9-5",
+          title: '🎉🎉 Our paper “Rethinking the Evaluation of Microservice RCA with a Fault Propagation-Aware...',
+          description: "",
+          section: "News",},{id: "news-our-paper-gleaner-a-semantically-rich-and-efficient-online-sampler-for-microservice-diagnostics-was-directly-accepted-by-issta-2026-direct-acceptance-rate-90-888-10-1",
           title: 'Our paper “Gleaner: A Semantically-Rich and Efficient Online Sampler for Microservice Diagnostics” was...',
           description: "",
           section: "News",},{id: "projects-aegis",

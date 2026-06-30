@@ -44,9 +44,25 @@ cv:
       - Conduct research in AI for Software Engineering and AIOps, with an emphasis on microservice diagnostics, root cause analysis, observability, and fault-propagation-aware evaluation.
       - Contribute to end-to-end research workflows across multiple projects, including system implementation, telemetry and data collection, fault injection, system integration, baseline reproduction, and performance evaluation.
       - Help maintain lab computing and networking infrastructure, including CPU clusters, GPU resources, Kubernetes environments, PVE virtualization, and OpenWrt-based networking.
-      - Designed fault-injection campaigns, improved observability integration across microservice systems, contributed to dataset organization, and wrote related sections for RCA benchmark research.
+      - Designed fault-injection campaigns, improved observability integration across microservice systems, contributed to dataset organization, and wrote related sections for OpenRCA 2.0 and RCA benchmark research.
       - First author of Gleaner, an online sampling framework for microservice diagnostics accepted at ISSTA 2026.
     publications:
+    - title: 'OpenRCA 2.0: From Outcome Labels to Causal Process Supervision'
+      authors:
+      - Aoyang Fang
+      - '**Yifan Yang**'
+      - Jin'ao Shang
+      - Qisheng Lu
+      - Junjielung Xu
+      - Rui Wang
+      - Songhan Zhang
+      - Yuzhong Zhang
+      - Boxi Yu
+      - Pinjia He*
+      journal: arXiv preprint
+      cv_links: '[[PDF]](https://arxiv.org/pdf/2606.27154)'
+      date: 2026-06
+      url: https://arxiv.org/abs/2606.27154
     - title: 'Gleaner: A Semantically-Rich and Efficient Online Sampler for Microservice Diagnostics'
       authors:
       - '**Yifan Yang**'

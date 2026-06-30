@@ -52,4 +52,4 @@ bash scripts/render_cv.sh private  # private/application CV copies
 bash scripts/render_cv.sh all      # both, preserving separation
 ```
 
-Never replace public CV sources with private sources as a shortcut. Before committing public website updates, check that public sources do not contain private-only markers such as `OpenRCA`, `Metis`, `Submitted`, `Under review`, `TOSEM`, or `NeurIPS` unless the user explicitly approved publication.
+Never replace public CV sources with private sources as a shortcut. Before committing public website updates, check that public sources do not contain private-only markers such as `Metis`, `Submitted`, `Under review`, `TOSEM`, or `NeurIPS` unless the user explicitly approved publication. `OpenRCA 2.0` is public after arXiv `2606.27154`, but public sources should label it as an arXiv preprint rather than a venue submission.

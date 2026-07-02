@@ -47,6 +47,22 @@ cv:
       - Designed fault-injection campaigns, improved observability integration across microservice systems, contributed to dataset organization, and wrote related sections for OpenRCA 2.0 and RCA benchmark research.
       - First author of Gleaner, an online sampling framework for microservice diagnostics accepted at ISSTA 2026.
     publications:
+    - title: Rethinking the Evaluation of Microservice RCA with a Fault Propagation-Aware Benchmark
+      authors:
+      - Aoyang Fang
+      - Songhan Zhang
+      - '**Yifan Yang**'
+      - Haotong Wu
+      - Junjielong Xu
+      - Xuyang Wang
+      - Rui Wang
+      - Manyi Wang
+      - Qisheng Lu
+      - Pinjia He*
+      journal: Proc. ACM Softw. Eng., 3(FSE):1605-1627, 2026
+      cv_links: '[[PDF]](https://yifanyang6.github.io/assets/pdf/papers/fang2026rethinking-fse.pdf)[[DOI]](https://doi.org/10.1145/3797100)'
+      date: 2026-06
+      url: https://doi.org/10.1145/3797100
     - title: 'OpenRCA 2.0: From Outcome Labels to Causal Process Supervision'
       authors:
       - Aoyang Fang
@@ -73,22 +89,7 @@ cv:
       cv_links: '[[PDF]](https://arxiv.org/pdf/2604.16810)[[code]](https://github.com/OperationsPAI/Gleaner)'
       date: 2026-04
       url: https://arxiv.org/abs/2604.16810
-    - title: Rethinking the Evaluation of Microservice RCA with a Fault Propagation-Aware Benchmark
-      authors:
-      - Aoyang Fang
-      - Songhan Zhang
-      - '**Yifan Yang**'
-      - Haotong Wu
-      - Junjielong Xu
-      - Xuyang Wang
-      - Rui Wang
-      - Manyi Wang
-      - Qisheng Lu
-      - Pinjia He*
-      journal: Accepted at FSE 2026
-      cv_links: '[[PDF]](https://arxiv.org/pdf/2510.04711)'
-      date: 2025-10
-      url: https://arxiv.org/abs/2510.04711
+
     - title: 'DynaCausal: Dynamic Causality-Aware Root Cause Analysis for Distributed Microservices'
       authors:
       - Songhan Zhang

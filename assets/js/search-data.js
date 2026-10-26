@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-awards",
+          title: "Awards",
+          description: "Academic awards and honors.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/awards/";
+          },
         },{id: "nav-projects",
           title: "Projects",
           description: "Representative open-source artifacts and research tooling.",
@@ -63,6 +70,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-joined-the-asplos-2027-artifact-evaluation-program-committee",
           title: 'Joined the ASPLOS 2027 Artifact Evaluation Program Committee.',
+          description: "",
+          section: "News",},{id: "news-our-paper-gleaner-a-semantically-rich-and-efficient-online-sampler-for-microservice-diagnostics-is-now-published-in-proceedings-of-the-acm-on-software-engineering-issta-2026",
+          title: '🎉 Our paper “Gleaner: A Semantically-Rich and Efficient Online Sampler for Microservice Diagnostics”...',
+          description: "",
+          section: "News",},{id: "news-i-received-the-outstanding-academic-scholarship-from-cuhk-shenzhen-mair-on-october-13-2026-see-awards",
+          title: 'I received the Outstanding Academic Scholarship from CUHK-Shenzhen MAIR on October 13, 2026....',
           description: "",
           section: "News",},{id: "projects-aegis",
           title: 'Aegis',

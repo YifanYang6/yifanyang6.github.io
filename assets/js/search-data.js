@@ -72,7 +72,7 @@ ninja.data = [{
           title: 'Joined the ASPLOS 2027 Artifact Evaluation Program Committee.',
           description: "",
           section: "News",},{id: "news-i-received-the-first-class-academic-merit-scholarship-from-cuhk-shenzhen-mair-on-september-1-2026",
-          title: 'I received the First-Class Academic Merit Scholarship from CUHK-Shenzhen MAIR on September 1,...',
+          title: 'I received the First-Class Merit Scholarship from CUHK-Shenzhen MAIR on September 1,...',
           description: "",
           section: "News",},{id: "news-our-paper-gleaner-a-semantically-rich-and-efficient-online-sampler-for-microservice-diagnostics-is-now-published-at-issta-26",
           title: '🎉 Our paper “Gleaner: A Semantically-Rich and Efficient Online Sampler for Microservice Diagnostics”...',
